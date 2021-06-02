@@ -1,0 +1,78 @@
+clc; clear all; close all;
+
+%% script to generate URDFs for serial chains
+
+n=2;
+
+parent_vec = [0:1:n-1];
+
+%% 
+
+robot_name = strcat(num2str(n),'link');
+filename = strcat(robot_name,'.urdf');
+
+fileID = fopen(filename,'w');
+
+str0 = '<?xml version="1.0" encoding="utf-8"?>';
+
+str1 = strcat('<robot name="',robot_name,'"> \n \n');
+
+
+fprintf(fileID,str0);
+fprintf(fileID,'\n \n'); % new line
+fprintf(fileID,str1);
+
+%% link info- base link
+
+link_name = '"base_link"';
+link_xyz_vec = [0,0,0];
+link_rpy_vec = [0,0,0];
+link_mass_num = 0;
+link_inertia_mat = [0,0,0,0,0,0]; % Ixx, xy,xz,yy,yz,zz
+
+
+input.link_name = link_name;
+input.link_xyz_vec = link_xyz_vec;
+input.link_rpy_vec = link_rpy_vec;
+input.link_mass_num = link_mass_num;
+input.link_inertia_mat = link_inertia_mat;
+
+ str_link = link_name_str(input);
+
+fprintf(fileID,str_link);
+
+%% link description
+
+% assuming all links of length = 1
+
+for ii=1:n
+
+    input.link_name = strcat('"link',num2str(ii),'"');
+    input.link_xyz_vec = [ii-1,0,0];
+    input.link_rpy_vec = [0,0,0];
+    input.link_mass_num=1.5;
+    input.link_inertia_mat = [0,0,0,0,0,1];
+    
+ str_link = link_name_str(input);
+    fprintf(fileID,str_link);
+
+    
+end
+
+
+%% joint description
+
+
+for ii=1:n
+
+    input.joint_name = strcat('"link',num2str(ii),'"');
+    input.link_xyz_vec = [ii-1,0,0];
+    input.link_rpy_vec = [0,0,0];
+    input.link_mass_num=1.5;
+    input.link_inertia_mat = [0,0,0,0,0,1];
+    
+ str_link = link_name_str(input);
+    fprintf(fileID,str_link);
+
+    
+end
