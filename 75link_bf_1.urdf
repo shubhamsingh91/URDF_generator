@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
  
-<robot name="55link_bf_2"> 
+<robot name="75link_bf_1"> 
  
 
  
@@ -62,7 +62,7 @@
    name="link3"> 
      <inertial> 
      <origin 
-      xyz="1 0 0" 
+      xyz="2 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -80,7 +80,7 @@
    name="link4"> 
      <inertial> 
      <origin 
-      xyz="2 0 0" 
+      xyz="3 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -98,7 +98,7 @@
    name="link5"> 
      <inertial> 
      <origin 
-      xyz="2 0 0" 
+      xyz="4 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -116,7 +116,7 @@
    name="link6"> 
      <inertial> 
      <origin 
-      xyz="3 0 0" 
+      xyz="5 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -134,7 +134,7 @@
    name="link7"> 
      <inertial> 
      <origin 
-      xyz="3 0 0" 
+      xyz="6 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -152,7 +152,7 @@
    name="link8"> 
      <inertial> 
      <origin 
-      xyz="4 0 0" 
+      xyz="7 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -170,7 +170,7 @@
    name="link9"> 
      <inertial> 
      <origin 
-      xyz="4 0 0" 
+      xyz="8 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -188,7 +188,7 @@
    name="link10"> 
      <inertial> 
      <origin 
-      xyz="5 0 0" 
+      xyz="9 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -206,7 +206,7 @@
    name="link11"> 
      <inertial> 
      <origin 
-      xyz="5 0 0" 
+      xyz="10 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -224,7 +224,7 @@
    name="link12"> 
      <inertial> 
      <origin 
-      xyz="6 0 0" 
+      xyz="11 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -242,7 +242,7 @@
    name="link13"> 
      <inertial> 
      <origin 
-      xyz="6 0 0" 
+      xyz="12 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -260,7 +260,7 @@
    name="link14"> 
      <inertial> 
      <origin 
-      xyz="7 0 0" 
+      xyz="13 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -278,7 +278,7 @@
    name="link15"> 
      <inertial> 
      <origin 
-      xyz="7 0 0" 
+      xyz="14 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -296,7 +296,7 @@
    name="link16"> 
      <inertial> 
      <origin 
-      xyz="8 0 0" 
+      xyz="15 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -314,7 +314,7 @@
    name="link17"> 
      <inertial> 
      <origin 
-      xyz="8 0 0" 
+      xyz="16 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -332,7 +332,7 @@
    name="link18"> 
      <inertial> 
      <origin 
-      xyz="9 0 0" 
+      xyz="17 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -350,7 +350,7 @@
    name="link19"> 
      <inertial> 
      <origin 
-      xyz="9 0 0" 
+      xyz="18 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -368,7 +368,7 @@
    name="link20"> 
      <inertial> 
      <origin 
-      xyz="10 0 0" 
+      xyz="19 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -386,7 +386,7 @@
    name="link21"> 
      <inertial> 
      <origin 
-      xyz="10 0 0" 
+      xyz="20 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -404,7 +404,7 @@
    name="link22"> 
      <inertial> 
      <origin 
-      xyz="11 0 0" 
+      xyz="21 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -422,7 +422,7 @@
    name="link23"> 
      <inertial> 
      <origin 
-      xyz="11 0 0" 
+      xyz="22 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -440,7 +440,7 @@
    name="link24"> 
      <inertial> 
      <origin 
-      xyz="12 0 0" 
+      xyz="23 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -458,7 +458,7 @@
    name="link25"> 
      <inertial> 
      <origin 
-      xyz="12 0 0" 
+      xyz="24 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -476,7 +476,7 @@
    name="link26"> 
      <inertial> 
      <origin 
-      xyz="13 0 0" 
+      xyz="25 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -494,7 +494,7 @@
    name="link27"> 
      <inertial> 
      <origin 
-      xyz="13 0 0" 
+      xyz="26 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -512,7 +512,7 @@
    name="link28"> 
      <inertial> 
      <origin 
-      xyz="14 0 0" 
+      xyz="27 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -530,7 +530,7 @@
    name="link29"> 
      <inertial> 
      <origin 
-      xyz="14 0 0" 
+      xyz="28 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -548,7 +548,7 @@
    name="link30"> 
      <inertial> 
      <origin 
-      xyz="15 0 0" 
+      xyz="29 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -566,7 +566,7 @@
    name="link31"> 
      <inertial> 
      <origin 
-      xyz="15 0 0" 
+      xyz="30 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -584,7 +584,7 @@
    name="link32"> 
      <inertial> 
      <origin 
-      xyz="16 0 0" 
+      xyz="31 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -602,7 +602,7 @@
    name="link33"> 
      <inertial> 
      <origin 
-      xyz="16 0 0" 
+      xyz="32 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -620,7 +620,7 @@
    name="link34"> 
      <inertial> 
      <origin 
-      xyz="17 0 0" 
+      xyz="33 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -638,7 +638,7 @@
    name="link35"> 
      <inertial> 
      <origin 
-      xyz="17 0 0" 
+      xyz="34 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -656,7 +656,7 @@
    name="link36"> 
      <inertial> 
      <origin 
-      xyz="18 0 0" 
+      xyz="35 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -674,7 +674,7 @@
    name="link37"> 
      <inertial> 
      <origin 
-      xyz="18 0 0" 
+      xyz="36 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -692,7 +692,7 @@
    name="link38"> 
      <inertial> 
      <origin 
-      xyz="19 0 0" 
+      xyz="37 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -710,7 +710,7 @@
    name="link39"> 
      <inertial> 
      <origin 
-      xyz="19 0 0" 
+      xyz="38 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -728,7 +728,7 @@
    name="link40"> 
      <inertial> 
      <origin 
-      xyz="20 0 0" 
+      xyz="39 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -746,7 +746,7 @@
    name="link41"> 
      <inertial> 
      <origin 
-      xyz="20 0 0" 
+      xyz="40 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -764,7 +764,7 @@
    name="link42"> 
      <inertial> 
      <origin 
-      xyz="21 0 0" 
+      xyz="41 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -782,7 +782,7 @@
    name="link43"> 
      <inertial> 
      <origin 
-      xyz="21 0 0" 
+      xyz="42 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -800,7 +800,7 @@
    name="link44"> 
      <inertial> 
      <origin 
-      xyz="22 0 0" 
+      xyz="43 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -818,7 +818,7 @@
    name="link45"> 
      <inertial> 
      <origin 
-      xyz="22 0 0" 
+      xyz="44 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -836,7 +836,7 @@
    name="link46"> 
      <inertial> 
      <origin 
-      xyz="23 0 0" 
+      xyz="45 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -854,7 +854,7 @@
    name="link47"> 
      <inertial> 
      <origin 
-      xyz="23 0 0" 
+      xyz="46 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -872,7 +872,7 @@
    name="link48"> 
      <inertial> 
      <origin 
-      xyz="24 0 0" 
+      xyz="47 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -890,7 +890,7 @@
    name="link49"> 
      <inertial> 
      <origin 
-      xyz="24 0 0" 
+      xyz="48 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -908,7 +908,7 @@
    name="link50"> 
      <inertial> 
      <origin 
-      xyz="25 0 0" 
+      xyz="49 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -926,7 +926,7 @@
    name="link51"> 
      <inertial> 
      <origin 
-      xyz="25 0 0" 
+      xyz="50 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -944,7 +944,7 @@
    name="link52"> 
      <inertial> 
      <origin 
-      xyz="26 0 0" 
+      xyz="51 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -962,7 +962,7 @@
    name="link53"> 
      <inertial> 
      <origin 
-      xyz="26 0 0" 
+      xyz="52 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -980,7 +980,7 @@
    name="link54"> 
      <inertial> 
      <origin 
-      xyz="27 0 0" 
+      xyz="53 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -998,7 +998,367 @@
    name="link55"> 
      <inertial> 
      <origin 
-      xyz="27 0 0" 
+      xyz="54 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link56"> 
+     <inertial> 
+     <origin 
+      xyz="55 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link57"> 
+     <inertial> 
+     <origin 
+      xyz="56 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link58"> 
+     <inertial> 
+     <origin 
+      xyz="57 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link59"> 
+     <inertial> 
+     <origin 
+      xyz="58 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link60"> 
+     <inertial> 
+     <origin 
+      xyz="59 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link61"> 
+     <inertial> 
+     <origin 
+      xyz="60 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link62"> 
+     <inertial> 
+     <origin 
+      xyz="61 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link63"> 
+     <inertial> 
+     <origin 
+      xyz="62 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link64"> 
+     <inertial> 
+     <origin 
+      xyz="63 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link65"> 
+     <inertial> 
+     <origin 
+      xyz="64 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link66"> 
+     <inertial> 
+     <origin 
+      xyz="65 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link67"> 
+     <inertial> 
+     <origin 
+      xyz="66 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link68"> 
+     <inertial> 
+     <origin 
+      xyz="67 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link69"> 
+     <inertial> 
+     <origin 
+      xyz="68 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link70"> 
+     <inertial> 
+     <origin 
+      xyz="69 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link71"> 
+     <inertial> 
+     <origin 
+      xyz="70 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link72"> 
+     <inertial> 
+     <origin 
+      xyz="71 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link73"> 
+     <inertial> 
+     <origin 
+      xyz="72 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link74"> 
+     <inertial> 
+     <origin 
+      xyz="73 0 0" 
+      rpy="0 0 0"/> 
+    <mass 
+     value="1.5"/> 
+    <inertia
+       ixx="0"
+       ixy="0"
+       ixz="0"
+       iyy="0"
+       iyz="0"
+       izz="1" />
+     </inertial>
+ </link>
+ 
+ <link 
+   name="link75"> 
+     <inertial> 
+     <origin 
+      xyz="74 0 0" 
       rpy="0 0 0"/> 
     <mass 
      value="1.5"/> 
@@ -1058,10 +1418,10 @@
    name="joint3" 
    type="revolute"> 
     <origin 
-      xyz="1 0 0" 
+      xyz="2 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link1"/> 
+     link="link2"/> 
     <child 
      link="link3"/> 
     <axis 
@@ -1079,10 +1439,10 @@
    name="joint4" 
    type="revolute"> 
     <origin 
-      xyz="2 0 0" 
+      xyz="3 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link2"/> 
+     link="link3"/> 
     <child 
      link="link4"/> 
     <axis 
@@ -1100,10 +1460,10 @@
    name="joint5" 
    type="revolute"> 
     <origin 
-      xyz="2 0 0" 
+      xyz="4 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link2"/> 
+     link="link4"/> 
     <child 
      link="link5"/> 
     <axis 
@@ -1121,10 +1481,10 @@
    name="joint6" 
    type="revolute"> 
     <origin 
-      xyz="3 0 0" 
+      xyz="5 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link3"/> 
+     link="link5"/> 
     <child 
      link="link6"/> 
     <axis 
@@ -1142,10 +1502,10 @@
    name="joint7" 
    type="revolute"> 
     <origin 
-      xyz="3 0 0" 
+      xyz="6 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link3"/> 
+     link="link6"/> 
     <child 
      link="link7"/> 
     <axis 
@@ -1163,10 +1523,10 @@
    name="joint8" 
    type="revolute"> 
     <origin 
-      xyz="4 0 0" 
+      xyz="7 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link4"/> 
+     link="link7"/> 
     <child 
      link="link8"/> 
     <axis 
@@ -1184,10 +1544,10 @@
    name="joint9" 
    type="revolute"> 
     <origin 
-      xyz="4 0 0" 
+      xyz="8 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link4"/> 
+     link="link8"/> 
     <child 
      link="link9"/> 
     <axis 
@@ -1205,10 +1565,10 @@
    name="joint10" 
    type="revolute"> 
     <origin 
-      xyz="5 0 0" 
+      xyz="9 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link5"/> 
+     link="link9"/> 
     <child 
      link="link10"/> 
     <axis 
@@ -1226,10 +1586,10 @@
    name="joint11" 
    type="revolute"> 
     <origin 
-      xyz="5 0 0" 
+      xyz="10 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link5"/> 
+     link="link10"/> 
     <child 
      link="link11"/> 
     <axis 
@@ -1247,10 +1607,10 @@
    name="joint12" 
    type="revolute"> 
     <origin 
-      xyz="6 0 0" 
+      xyz="11 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link6"/> 
+     link="link11"/> 
     <child 
      link="link12"/> 
     <axis 
@@ -1268,10 +1628,10 @@
    name="joint13" 
    type="revolute"> 
     <origin 
-      xyz="6 0 0" 
+      xyz="12 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link6"/> 
+     link="link12"/> 
     <child 
      link="link13"/> 
     <axis 
@@ -1289,10 +1649,10 @@
    name="joint14" 
    type="revolute"> 
     <origin 
-      xyz="7 0 0" 
+      xyz="13 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link7"/> 
+     link="link13"/> 
     <child 
      link="link14"/> 
     <axis 
@@ -1310,10 +1670,10 @@
    name="joint15" 
    type="revolute"> 
     <origin 
-      xyz="7 0 0" 
+      xyz="14 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link7"/> 
+     link="link14"/> 
     <child 
      link="link15"/> 
     <axis 
@@ -1331,10 +1691,10 @@
    name="joint16" 
    type="revolute"> 
     <origin 
-      xyz="8 0 0" 
+      xyz="15 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link8"/> 
+     link="link15"/> 
     <child 
      link="link16"/> 
     <axis 
@@ -1352,10 +1712,10 @@
    name="joint17" 
    type="revolute"> 
     <origin 
-      xyz="8 0 0" 
+      xyz="16 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link8"/> 
+     link="link16"/> 
     <child 
      link="link17"/> 
     <axis 
@@ -1373,10 +1733,10 @@
    name="joint18" 
    type="revolute"> 
     <origin 
-      xyz="9 0 0" 
+      xyz="17 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link9"/> 
+     link="link17"/> 
     <child 
      link="link18"/> 
     <axis 
@@ -1394,10 +1754,10 @@
    name="joint19" 
    type="revolute"> 
     <origin 
-      xyz="9 0 0" 
+      xyz="18 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link9"/> 
+     link="link18"/> 
     <child 
      link="link19"/> 
     <axis 
@@ -1415,10 +1775,10 @@
    name="joint20" 
    type="revolute"> 
     <origin 
-      xyz="10 0 0" 
+      xyz="19 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link10"/> 
+     link="link19"/> 
     <child 
      link="link20"/> 
     <axis 
@@ -1436,10 +1796,10 @@
    name="joint21" 
    type="revolute"> 
     <origin 
-      xyz="10 0 0" 
+      xyz="20 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link10"/> 
+     link="link20"/> 
     <child 
      link="link21"/> 
     <axis 
@@ -1457,10 +1817,10 @@
    name="joint22" 
    type="revolute"> 
     <origin 
-      xyz="11 0 0" 
+      xyz="21 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link11"/> 
+     link="link21"/> 
     <child 
      link="link22"/> 
     <axis 
@@ -1478,10 +1838,10 @@
    name="joint23" 
    type="revolute"> 
     <origin 
-      xyz="11 0 0" 
+      xyz="22 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link11"/> 
+     link="link22"/> 
     <child 
      link="link23"/> 
     <axis 
@@ -1499,10 +1859,10 @@
    name="joint24" 
    type="revolute"> 
     <origin 
-      xyz="12 0 0" 
+      xyz="23 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link12"/> 
+     link="link23"/> 
     <child 
      link="link24"/> 
     <axis 
@@ -1520,10 +1880,10 @@
    name="joint25" 
    type="revolute"> 
     <origin 
-      xyz="12 0 0" 
+      xyz="24 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link12"/> 
+     link="link24"/> 
     <child 
      link="link25"/> 
     <axis 
@@ -1541,10 +1901,10 @@
    name="joint26" 
    type="revolute"> 
     <origin 
-      xyz="13 0 0" 
+      xyz="25 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link13"/> 
+     link="link25"/> 
     <child 
      link="link26"/> 
     <axis 
@@ -1562,10 +1922,10 @@
    name="joint27" 
    type="revolute"> 
     <origin 
-      xyz="13 0 0" 
+      xyz="26 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link13"/> 
+     link="link26"/> 
     <child 
      link="link27"/> 
     <axis 
@@ -1583,10 +1943,10 @@
    name="joint28" 
    type="revolute"> 
     <origin 
-      xyz="14 0 0" 
+      xyz="27 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link14"/> 
+     link="link27"/> 
     <child 
      link="link28"/> 
     <axis 
@@ -1604,10 +1964,10 @@
    name="joint29" 
    type="revolute"> 
     <origin 
-      xyz="14 0 0" 
+      xyz="28 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link14"/> 
+     link="link28"/> 
     <child 
      link="link29"/> 
     <axis 
@@ -1625,10 +1985,10 @@
    name="joint30" 
    type="revolute"> 
     <origin 
-      xyz="15 0 0" 
+      xyz="29 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link15"/> 
+     link="link29"/> 
     <child 
      link="link30"/> 
     <axis 
@@ -1646,10 +2006,10 @@
    name="joint31" 
    type="revolute"> 
     <origin 
-      xyz="15 0 0" 
+      xyz="30 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link15"/> 
+     link="link30"/> 
     <child 
      link="link31"/> 
     <axis 
@@ -1667,10 +2027,10 @@
    name="joint32" 
    type="revolute"> 
     <origin 
-      xyz="16 0 0" 
+      xyz="31 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link16"/> 
+     link="link31"/> 
     <child 
      link="link32"/> 
     <axis 
@@ -1688,10 +2048,10 @@
    name="joint33" 
    type="revolute"> 
     <origin 
-      xyz="16 0 0" 
+      xyz="32 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link16"/> 
+     link="link32"/> 
     <child 
      link="link33"/> 
     <axis 
@@ -1709,10 +2069,10 @@
    name="joint34" 
    type="revolute"> 
     <origin 
-      xyz="17 0 0" 
+      xyz="33 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link17"/> 
+     link="link33"/> 
     <child 
      link="link34"/> 
     <axis 
@@ -1730,10 +2090,10 @@
    name="joint35" 
    type="revolute"> 
     <origin 
-      xyz="17 0 0" 
+      xyz="34 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link17"/> 
+     link="link34"/> 
     <child 
      link="link35"/> 
     <axis 
@@ -1751,10 +2111,10 @@
    name="joint36" 
    type="revolute"> 
     <origin 
-      xyz="18 0 0" 
+      xyz="35 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link18"/> 
+     link="link35"/> 
     <child 
      link="link36"/> 
     <axis 
@@ -1772,10 +2132,10 @@
    name="joint37" 
    type="revolute"> 
     <origin 
-      xyz="18 0 0" 
+      xyz="36 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link18"/> 
+     link="link36"/> 
     <child 
      link="link37"/> 
     <axis 
@@ -1793,10 +2153,10 @@
    name="joint38" 
    type="revolute"> 
     <origin 
-      xyz="19 0 0" 
+      xyz="37 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link19"/> 
+     link="link37"/> 
     <child 
      link="link38"/> 
     <axis 
@@ -1814,10 +2174,10 @@
    name="joint39" 
    type="revolute"> 
     <origin 
-      xyz="19 0 0" 
+      xyz="38 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link19"/> 
+     link="link38"/> 
     <child 
      link="link39"/> 
     <axis 
@@ -1835,10 +2195,10 @@
    name="joint40" 
    type="revolute"> 
     <origin 
-      xyz="20 0 0" 
+      xyz="39 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link20"/> 
+     link="link39"/> 
     <child 
      link="link40"/> 
     <axis 
@@ -1856,10 +2216,10 @@
    name="joint41" 
    type="revolute"> 
     <origin 
-      xyz="20 0 0" 
+      xyz="40 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link20"/> 
+     link="link40"/> 
     <child 
      link="link41"/> 
     <axis 
@@ -1877,10 +2237,10 @@
    name="joint42" 
    type="revolute"> 
     <origin 
-      xyz="21 0 0" 
+      xyz="41 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link21"/> 
+     link="link41"/> 
     <child 
      link="link42"/> 
     <axis 
@@ -1898,10 +2258,10 @@
    name="joint43" 
    type="revolute"> 
     <origin 
-      xyz="21 0 0" 
+      xyz="42 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link21"/> 
+     link="link42"/> 
     <child 
      link="link43"/> 
     <axis 
@@ -1919,10 +2279,10 @@
    name="joint44" 
    type="revolute"> 
     <origin 
-      xyz="22 0 0" 
+      xyz="43 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link22"/> 
+     link="link43"/> 
     <child 
      link="link44"/> 
     <axis 
@@ -1940,10 +2300,10 @@
    name="joint45" 
    type="revolute"> 
     <origin 
-      xyz="22 0 0" 
+      xyz="44 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link22"/> 
+     link="link44"/> 
     <child 
      link="link45"/> 
     <axis 
@@ -1961,10 +2321,10 @@
    name="joint46" 
    type="revolute"> 
     <origin 
-      xyz="23 0 0" 
+      xyz="45 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link23"/> 
+     link="link45"/> 
     <child 
      link="link46"/> 
     <axis 
@@ -1982,10 +2342,10 @@
    name="joint47" 
    type="revolute"> 
     <origin 
-      xyz="23 0 0" 
+      xyz="46 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link23"/> 
+     link="link46"/> 
     <child 
      link="link47"/> 
     <axis 
@@ -2003,10 +2363,10 @@
    name="joint48" 
    type="revolute"> 
     <origin 
-      xyz="24 0 0" 
+      xyz="47 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link24"/> 
+     link="link47"/> 
     <child 
      link="link48"/> 
     <axis 
@@ -2024,10 +2384,10 @@
    name="joint49" 
    type="revolute"> 
     <origin 
-      xyz="24 0 0" 
+      xyz="48 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link24"/> 
+     link="link48"/> 
     <child 
      link="link49"/> 
     <axis 
@@ -2045,10 +2405,10 @@
    name="joint50" 
    type="revolute"> 
     <origin 
-      xyz="25 0 0" 
+      xyz="49 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link25"/> 
+     link="link49"/> 
     <child 
      link="link50"/> 
     <axis 
@@ -2066,10 +2426,10 @@
    name="joint51" 
    type="revolute"> 
     <origin 
-      xyz="25 0 0" 
+      xyz="50 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link25"/> 
+     link="link50"/> 
     <child 
      link="link51"/> 
     <axis 
@@ -2087,10 +2447,10 @@
    name="joint52" 
    type="revolute"> 
     <origin 
-      xyz="26 0 0" 
+      xyz="51 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link26"/> 
+     link="link51"/> 
     <child 
      link="link52"/> 
     <axis 
@@ -2108,10 +2468,10 @@
    name="joint53" 
    type="revolute"> 
     <origin 
-      xyz="26 0 0" 
+      xyz="52 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link26"/> 
+     link="link52"/> 
     <child 
      link="link53"/> 
     <axis 
@@ -2129,10 +2489,10 @@
    name="joint54" 
    type="revolute"> 
     <origin 
-      xyz="27 0 0" 
+      xyz="53 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link27"/> 
+     link="link53"/> 
     <child 
      link="link54"/> 
     <axis 
@@ -2150,12 +2510,432 @@
    name="joint55" 
    type="revolute"> 
     <origin 
-      xyz="27 0 0" 
+      xyz="54 0 0" 
       rpy="0 0 0"/> 
     <parent 
-     link="link27"/> 
+     link="link54"/> 
     <child 
      link="link55"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint56" 
+   type="revolute"> 
+    <origin 
+      xyz="55 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link55"/> 
+    <child 
+     link="link56"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint57" 
+   type="revolute"> 
+    <origin 
+      xyz="56 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link56"/> 
+    <child 
+     link="link57"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint58" 
+   type="revolute"> 
+    <origin 
+      xyz="57 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link57"/> 
+    <child 
+     link="link58"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint59" 
+   type="revolute"> 
+    <origin 
+      xyz="58 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link58"/> 
+    <child 
+     link="link59"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint60" 
+   type="revolute"> 
+    <origin 
+      xyz="59 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link59"/> 
+    <child 
+     link="link60"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint61" 
+   type="revolute"> 
+    <origin 
+      xyz="60 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link60"/> 
+    <child 
+     link="link61"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint62" 
+   type="revolute"> 
+    <origin 
+      xyz="61 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link61"/> 
+    <child 
+     link="link62"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint63" 
+   type="revolute"> 
+    <origin 
+      xyz="62 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link62"/> 
+    <child 
+     link="link63"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint64" 
+   type="revolute"> 
+    <origin 
+      xyz="63 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link63"/> 
+    <child 
+     link="link64"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint65" 
+   type="revolute"> 
+    <origin 
+      xyz="64 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link64"/> 
+    <child 
+     link="link65"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint66" 
+   type="revolute"> 
+    <origin 
+      xyz="65 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link65"/> 
+    <child 
+     link="link66"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint67" 
+   type="revolute"> 
+    <origin 
+      xyz="66 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link66"/> 
+    <child 
+     link="link67"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint68" 
+   type="revolute"> 
+    <origin 
+      xyz="67 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link67"/> 
+    <child 
+     link="link68"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint69" 
+   type="revolute"> 
+    <origin 
+      xyz="68 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link68"/> 
+    <child 
+     link="link69"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint70" 
+   type="revolute"> 
+    <origin 
+      xyz="69 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link69"/> 
+    <child 
+     link="link70"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint71" 
+   type="revolute"> 
+    <origin 
+      xyz="70 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link70"/> 
+    <child 
+     link="link71"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint72" 
+   type="revolute"> 
+    <origin 
+      xyz="71 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link71"/> 
+    <child 
+     link="link72"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint73" 
+   type="revolute"> 
+    <origin 
+      xyz="72 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link72"/> 
+    <child 
+     link="link73"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint74" 
+   type="revolute"> 
+    <origin 
+      xyz="73 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link73"/> 
+    <child 
+     link="link74"/> 
+    <axis 
+     xyz="0 0 1"/> 
+    <limit 
+     lower="0"
+      upper="0"
+      effort="0"
+      velocity="0"  />
+     <dynamics
+     damping="0.05"  />
+ </joint>
+ 
+ <joint 
+   name="joint75" 
+   type="revolute"> 
+    <origin 
+      xyz="74 0 0" 
+      rpy="0 0 0"/> 
+    <parent 
+     link="link74"/> 
+    <child 
+     link="link75"/> 
     <axis 
      xyz="0 0 1"/> 
     <limit 
